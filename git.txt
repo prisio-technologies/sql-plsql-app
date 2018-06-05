@@ -7,3 +7,6 @@ how git works:
 local work
 commit in local
 push to origin- server
+
+---------------
+comments
