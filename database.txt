@@ -1,0 +1,80 @@
+what is database?
+-------------------
+
+server + manage data.
+
+
+OS
+---------------------------
+
+windows -> oracle / open source [mysql, postgres, no-sql. cloud]
+
+linux:
+solaris
+ubuntu
+-----------------------------
+
+oracle xe:
+
+database: schema , tablespace?
+--------------------------------
+
+SQL : set theory: 
+
+A, B
+
+1-100
+51-100
+
+select <col1, col2> 
+from 
+<schema>.
+<table>
+
+
+
+select a.col1, b.col1 from (select col1 from t),b 
+where 1=2
+and a.col1 = b.col1
+group by
+having
+
+order by
+
+
+
+
+data type:
+
+Number
+Varchar
+date
+integer
+boolean
+
+null
+
+
+
+ERD
+
+
+Entity: tables
+RElationship: Joins
+
+
+employees
+
+primary -> 
+foreign keys->
+
+
+-----------------
+
+Index
+
+
+
+
+
+
