@@ -1,0 +1,38 @@
+Entities:
+
+1. Users Registration [email, phoneno., dob etc] users_registered
+-> Create an Index on phone no.
+
+2. Users Address Information [address, pin, city, state, country] users_addresses
+-> Create an index on PIN code
+
+3. Users Geo Location Information. [GeoLOcationID, UserID, User Address_id, lat, long derived] users_geo_location
+-> Add a column as Proximity 
+
+Products Schemas:
+--------------------
+1. product_taxonomies. -> Ex. 
+2. products
+3. product_variants
+4. product_variant_attributes.
+
+Stock/Inventories
+---------
+product_stocks
+
+Q1: write a sql having product_id, product_name, product_taxonomy, product_vaiants, product_stock for extract.
+
+Orders Management
+---------
+orders
+order_lines
+order_payments
+
+
+Q2: Orders placed by user in past 2 days.
+Q3: Orders placed as duplicate product in same order.
+Q4: Orders placed in same PIN Code on same day.
+Q5: Orders placed in same proximity. 
+
+-----------------------------------------------------
+

@@ -51,7 +51,6 @@ Varchar
 date
 integer
 boolean
-
 null
 
 
@@ -62,16 +61,22 @@ ERD
 Entity: tables
 RElationship: Joins
 
+----------------------
+
+select a.col1, b.col1 from a, b
+where a.col1 = b.col1(+)
+
 
 employees
 
 primary -> 
 foreign keys->
 
-
 -----------------
 
 Index
+
+
 
 
 

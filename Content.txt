@@ -1,0 +1,7 @@
+Operators
+	Introduction 
+	Comparison Operators (=,<,>,ANY,ALL) 
+	SQL Operators (LIKE, IN, BETWEEN, IS NULL)
+	Logical Operators (AND, OR, NOT) 
+	Substitution Variables 
+
