@@ -1,0 +1,37 @@
+Assignments: 05-Jun-2018
+
+1. Create a Entity Relationship Diagram for an online shop application, which consists of below features.
+
+
+[Neha/Sonali]
+1. Users Registration [email, phoneno., dob etc] users_registered
+2. Users Address Information [address, pin, city, state, country] users_addresses
+[Gaurav/Lucky]
+3. Users Geo Location Information. [UserID, User Address_id, lat, long derived] users_geo_location
+
+
+[Megha/Kritika]
+Products Schemas:
+--------------------
+1. product_taxonomies. 
+2. products
+3. product_variants
+4. product_varinat_attributes.
+
+[hemant/Gaurav]
+Stock/Inventories
+---------
+product_stocks
+
+
+[sonali/hemant]
+Orders Management
+---------
+orders
+order_lines
+order_payments
+
+--------------------------------------------------------------------------------------------------------------------------
+
+just create create table statements for above
+-> you can take help from: https://github.com/spree/demo/blob/master/db/schema.rb
