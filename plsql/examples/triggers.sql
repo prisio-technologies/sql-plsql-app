@@ -35,3 +35,5 @@ create or replace trigger assign_mgr
         begin
             :new.mgr := 7839;
         end;
+
+
