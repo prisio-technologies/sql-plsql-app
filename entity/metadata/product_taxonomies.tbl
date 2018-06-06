@@ -1,0 +1,18 @@
+----------------------------------------------------------------------------------------------------
+-- File name       : product_taxonomies.tbl
+-- Author          : Abhishek
+-- Created         : 05-Jun-2018
+-- Description     : Contains product family infomation
+-----------------------------------------------------------------------------------------------------
+--  Date          Author          Version    Reason
+-------------- ---------------    -------- ----------------------------------------------------------
+-- 05-JUn-2018    Abhishek        1.0       
+-----------------------------------------------------------------------------------------------------
+
+create table product_taxonomies
+(
+    taxonomy_id number,
+    name varchar2(100),
+    created_at date,
+    updated_at date
+);
