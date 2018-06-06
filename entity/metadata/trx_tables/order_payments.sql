@@ -1,3 +1,15 @@
+----------------------------------------------------------------------------------------------------
+-- File name       : order_payments
+-- Author          : Sonali/Hemant
+-- Created         : 06-Jun-2018
+-- Description     : Contains Order payment information
+-----------------------------------------------------------------------------------------------------
+--  Date          Author          Version    Reason
+-------------- ---------------    -------- ----------------------------------------------------------
+-- 06-Jun-2018    Sonali/Hemant          1.0       Initial creation & Insertion of data
+-----------------------------------------------------------------------------------------------------
+
+
 create table order_payments (
 	Customer_Number INT,
 	Check_Number INT,
