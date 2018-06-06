@@ -72,3 +72,15 @@ ADD CONSTRAINT fk_supplier
 ALTER TABLE products
 DROP CONSTRAINT fk_supplier;  
 
+
+case 
+  when condition then 
+  else 
+end;
+
+if condition then
+  
+else
+  
+end if;
+
