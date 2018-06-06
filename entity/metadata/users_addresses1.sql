@@ -10,10 +10,11 @@
 -----------------------------------------------------------------------------------------------------
 
 
+
+
 create table users_addresses1 (
 	User_ID INT,
-	first_name VARCHAR(50),
-	last_name VARCHAR(50),
+    Address_ID INT,
 	Address VARCHAR(50),
 	City VARCHAR(50),
 	State VARCHAR(50),
