@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------
+-- File name       : product_taxonomies.tbl
+-- Author          : Abhishek
+-- Created         : 05-Jun-2018
+-- Description     : Contains product family infomation
+-----------------------------------------------------------------------------------------------------
+--  Date          Author          Version    Reason
+-------------- ---------------    -------- ----------------------------------------------------------
+-- 05-JUn-2018    Abhishek        1.0       
+-----------------------------------------------------------------------------------------------------
+CREATE TABLE products (
+    product_id             NUMBER,
+    name                   VARCHAR2(50),
+    description            VARCHAR2(50),
+    created_at             DATE,
+    updated_at             DATE,
+    permalink              VARCHAR2(250),
+    available_on           DATE,
+    shipping_category_id   NUMBER,
+    count_on_hand          NUMBER
+);
