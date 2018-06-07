@@ -17,5 +17,5 @@ create table product_stocks (
 	Created_On DATE,
 	Updated_On DATE,
 	Stock_Qty INT,
-	Warehouse INT Foreign key
+	Warehouse INT
 );
