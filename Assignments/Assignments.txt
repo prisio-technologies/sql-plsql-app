@@ -57,8 +57,8 @@ Master Data:
     Users: 
     table name:             Object Name:
     users_registered        m01_users_registered.tbl
-    users_addresses         m02_users_registered.tbl
-    users_geo_location      m03_users_registered.tbl    
+    users_addresses         m02_users_addresses.tbl
+    users_geo_location      m03_users_geo_location.tbl    
 
     Products
     table name:                     Object Name:
