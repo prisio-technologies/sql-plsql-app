@@ -1,24 +1,17 @@
+create table product_taxonomies
 ----------------------------------------------------------------------------------------------------
--- File name       : user_addresses1
--- Author          : Sonali/Neha
--- Created         : 06-Jun-2018
--- Description     : Contains user address information
+-- File name       : product_taxonomies.tbl
+-- Author          : Abhishek
+-- Created         : 05-Jun-2018
+-- Description     : Contains product family infomation
 -----------------------------------------------------------------------------------------------------
 --  Date          Author          Version    Reason
 -------------- ---------------    -------- ----------------------------------------------------------
--- 06-Jun-2018    Sonali/Neha          1.0       Initial creation
+-- 05-JUn-2018    Abhishek        1.0       
 -----------------------------------------------------------------------------------------------------
-
-
-
-
-create table users_addresses1 (
-	User_ID INT,
-    Address_ID INT,
-	Address VARCHAR(50),
-	City VARCHAR(50),
-	State VARCHAR(50),
-	Country VARCHAR(50),
-	CountryCode VARCHAR(50),
-	PostalCode VARCHAR(50)
+(
+    taxonomy_id number,
+    name varchar2(100),
+    created_at date,
+    updated_at date
 );
