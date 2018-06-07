@@ -110,3 +110,65 @@ create table Product_Variant (
 	Product_DeletedAt Date
 );
 
+
+create table product_variant_attributes (
+Product_Quality VARCHAR(9),
+Product_Colour VARCHAR(50),
+Product_Size VARCHAR(10),
+Product_ID INT
+);
+
+
+----------------------------------------------------------------------------------------------------
+-- File name       : product_stocks
+-- Author          : Gaurav
+-- Created         : 05-Jun-2018
+-- Description     : Contains product stocks data
+-----------------------------------------------------------------------------------------------------
+--  Date          Author          Version    Reason
+-------------- ---------------    -------- ----------------------------------------------------------
+-- 05-Jun-2018    Gaurav          1.0       Initial creation
+-- 05-JUn-2018    Abhishek        1.1       added warehouse FK const
+-----------------------------------------------------------------------------------------------------
+
+create table product_stocks (
+	Product_id INT,
+	Product_tax_id INT,
+	Variant_id INT,
+	Created_On DATE,
+	Updated_On DATE,
+	Stock_Qty INT,
+	Warehouse INT
+);
+
+create table Orders (
+	Order_ID INT,
+	Order_Date DATE,
+	Shipped_Date DATE,
+	Order_Status_Flag VARCHAR(50),
+	Comments VARCHAR(50),
+	Customer_Number INT
+);
+
+create table Order_lines (
+	Order_ID INT,
+	Line_ID INT,
+	Product_Code VARCHAR(50),
+	Quantity INT,
+	Price_Per_Quantity INT,
+	Customer_Number INT
+);
+
+
+create table order_payments (
+	Customer_Number INT,
+	Check_Number INT,
+	Payement_Date DATE,
+	Amount INT
+);
+
+
+-------------------------------------------
+sequence?
+
+

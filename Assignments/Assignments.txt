@@ -83,6 +83,15 @@ Master Data:
     Users: 
     table name:             Object Name:
     users_registered        m01_users_registered.seq
+
+CREATE SEQUENCE "ECOMAPP"."USERS_REGISTERED_S1" 
+MINVALUE 10000 
+MAXVALUE 9999999999999
+INCREMENT BY 1 
+START WITH 10000 ;
+
+
+
     users_addresses         m02_users_registered.seq
     users_geo_location      m03_users_registered.seq    
 

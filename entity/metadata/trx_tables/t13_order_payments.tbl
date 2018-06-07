@@ -16,6 +16,8 @@ create table order_payments (
 	Payement_Date DATE,
 	Amount INT
 );
+
+
 insert into order_payments (Customer_Number, Check_Number, Payement_Date, Amount) values (1, 29, '13-Jul-2017', 394);
 insert into order_payments (Customer_Number, Check_Number, Payement_Date, Amount) values (2, 6, '29-Jul-2017', 78);
 insert into order_payments (Customer_Number, Check_Number, Payement_Date, Amount) values (3, 62, '15-Nov-2017', 924);
