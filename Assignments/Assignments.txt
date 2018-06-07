@@ -36,3 +36,93 @@ order_payments
 just create create table statements for above
 -> you can take help from: https://github.com/spree/demo/blob/master/db/schema.rb
 
+-----------------------------------------------------------------------------------------
+
+Assignment: 1.1
+
+1. create a new user as ecomapp, password as ecomapp
+2. add all tables into it.
+3. grant select to all users 
+4. run select * from all_tables where owner='ecomapp'
+
+
+list of tables
+------------
+Master Data:
+
+    Users: 
+    table name:             Object Name:
+    users_registered        m01_users_registered.tbl
+    users_addresses         m02_users_registered.tbl
+    users_geo_location      m03_users_registered.tbl    
+
+    Products
+    table name:                     Object Name:
+    1. product_taxonomies           m11_product_taxonomies.tbl
+    2. products                     m12_products.tbl
+    3. product_variants             m13_product_variants.tbl
+    4. product_varinat_attributes   m14_product_varinat_attributes.tbl
+
+Transaction Data:
+    table name:                     Object Name:
+    product_stocks                  t01_product_stocks.tbl
+    orders                          t11_orders.tbl
+    order_lines                     t12_order_lines.tbl
+    order_payments                  t13_order_payments.tbl
+
+-------------------------------------------------
+create sequences for each table mentioned above
+-------------------------------------------------
+Master Data:
+
+    Users: 
+    table name:             Object Name:
+    users_registered        m01_users_registered.seq
+    users_addresses         m02_users_registered.seq
+    users_geo_location      m03_users_registered.seq    
+
+    Products
+    table name:                     Object Name:
+    1. product_taxonomies           m11_product_taxonomies.seq
+    2. products                     m12_products.seq
+    3. product_variants             m13_product_variants.seq
+    4. product_varinat_attributes   m14_product_varinat_attributes.seq
+
+Transaction Data:
+    table name:                     Object Name:
+    product_stocks                  t01_product_stocks.seq
+    orders                          t11_orders.seq
+    order_lines                     t12_order_lines.seq
+    order_payments                  t13_order_payments.seq
+
+--------------------------------------------------
+Add Key constrains using alter table
+    -> Primary Key
+    -> Foreign Key
+    -> NOT NUll
+    -> Default Values
+
+Master Data:
+
+    Users: 
+    table name:             Object Name:
+    users_registered        m01_users_registered.seq
+    users_addresses         m02_users_registered.seq
+    users_geo_location      m03_users_registered.seq    
+
+    Products
+    table name:                     Object Name:
+    1. product_taxonomies           m11_product_taxonomies.seq
+    2. products                     m12_products.seq
+    3. product_variants             m13_product_variants.seq
+    4. product_varinat_attributes   m14_product_varinat_attributes.seq
+
+Transaction Data:
+    table name:                     Object Name:
+    product_stocks                  t01_product_stocks.seq
+    orders                          t11_orders.seq
+    order_lines                     t12_order_lines.seq
+    order_payments                  t13_order_payments.seq
+
+-----------------------------------------------
+
