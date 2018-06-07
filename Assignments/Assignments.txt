@@ -41,6 +41,10 @@ Sonali
 Assignment: 1.1
 
 1. create a new user as ecomapp, password as ecomapp
+
+-> CREATE USER ecomapp IDENTIFIED BY ecomapp;
+-> ALTER USER ecomapp IDENTIFIED BY ecomapp ACCOUNT UNLOCK;
+
 2. add all tables into it.
 3. grant select to all users 
 4. run select * from all_tables where owner='ecomapp'
