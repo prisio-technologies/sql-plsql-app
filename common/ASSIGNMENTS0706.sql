@@ -1,3 +1,10 @@
+
+CREATE USER ecomapp IDENTIFIED BY ecomapp;
+GRANT CONNECT TO ecomapp;
+GRANT CONNECT, RESOURCE, DBA TO ecomapp;
+GRANT CREATE SESSION TO ecomapp;
+ALTER USER ecomapp IDENTIFIED BY ecomapp ACCOUNT UNLOCK;
+
 create table users_registered (
 	User_ID INT,
 	first_name VARCHAR(50),
@@ -94,3 +101,11 @@ CREATE TABLE products (
     count_on_hand          NUMBER
 );
 
+create table Product_Variant (
+	Product_price Number(10),
+	Product_Weight Number(10),
+	Product_Height Number(10),
+	Product_Width Number(10),
+	Product_Depth Number(10),
+	Product_DeletedAt Date
+);
