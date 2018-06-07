@@ -65,7 +65,7 @@ Master Data:
     1. product_taxonomies           m11_product_taxonomies.tbl
     2. products                     m12_products.tbl
     3. product_variants             m13_product_variants.tbl
-    4. product_varinat_attributes   m14_product_varinat_attributes.tbl
+    4. product_variant_attributes   m14_product_variant_attributes.tbl
 
 Transaction Data:
     table name:                     Object Name:

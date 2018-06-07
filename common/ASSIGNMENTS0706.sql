@@ -109,3 +109,4 @@ create table Product_Variant (
 	Product_Depth Number(10),
 	Product_DeletedAt Date
 );
+
