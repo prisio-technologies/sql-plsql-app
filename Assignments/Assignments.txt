@@ -37,7 +37,7 @@ just create create table statements for above
 -> you can take help from: https://github.com/spree/demo/blob/master/db/schema.rb
 
 -----------------------------------------------------------------------------------------
-
+Sonali
 Assignment: 1.1
 
 1. create a new user as ecomapp, password as ecomapp
@@ -71,7 +71,8 @@ Transaction Data:
     order_payments                  t13_order_payments.tbl
 
 -------------------------------------------------
-create sequences for each table mentioned above
+create sequences for each table mentioned below
+Kritika
 -------------------------------------------------
 Master Data:
 
@@ -96,6 +97,7 @@ Transaction Data:
     order_payments                  t13_order_payments.seq
 
 --------------------------------------------------
+Gaurav
 Add Key constrains using alter table
     -> Primary Key
     -> Foreign Key
