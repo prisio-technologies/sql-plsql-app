@@ -200,7 +200,7 @@ select * from USERS_REGISTERED;
 
 select * from all_sequences where SEQUENCE_OWNER='ECOMAPP'
 
-select users_registered_s1.nextval from dual;
+select users_registered_s1.CURRVAL from dual;
 
 -------------------
 
