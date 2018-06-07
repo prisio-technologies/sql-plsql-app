@@ -169,6 +169,60 @@ create table order_payments (
 
 
 -------------------------------------------
-sequence?
+drop SEQUENCE "ECOMAPP"."USERS_REGISTERED_S1" ;
 
+CREATE SEQUENCE "ECOMAPP"."USERS_REGISTERED_S1" 
+MINVALUE 10000 
+MAXVALUE 9999999999999
+INCREMENT BY 1 
+START WITH 10000 ;
+
+INSERT INTO users_registered (
+    user_id,
+    first_name,
+    last_name,
+    email,
+    gender,
+    phone_no,
+    date_of_birth
+) VALUES (
+    users_registered_s1.NEXTVAL,
+    'Hemant',
+    '',
+    'Hemant@prisio.com',
+    'M',
+    '123456778',
+    '1-Jan-1995'
+);
+
+select * from USERS_REGISTERED;
+
+
+select * from all_sequences where SEQUENCE_OWNER='ECOMAPP'
+
+select users_registered_s1.nextval from dual;
+
+-------------------
+
+
+select MAX(USER_ID) from USERS_REGISTERED;
+10102
+
+select * from USERS_REGISTERED WHERE LENGTH(EMAIL) > 30
+
+select * from USERS_REGISTERED WHERE DATE_OF_BIRTH > SYSDATE - 10
+
+SELECT SYSDATE FROM DUAL;
+
+SELECT * FROM USERS_REGISTERED
+
+select COUNT(GENDER), GENDER, LAST_NAME  from USERS_REGISTERED
+WHERE 1=1
+GROUP BY GENDER , LAST_NAME
+HAVING 1=1
+ORDER BY 1
+
+G -> GROUP BY
+H -> HAVING
+O -> ORDER BY
 
