@@ -91,7 +91,6 @@ INCREMENT BY 1
 START WITH 10000 ;
 
 
-
     users_addresses         m02_users_registered.seq
     users_geo_location      m03_users_registered.seq    
 
