@@ -105,24 +105,24 @@ Add Key constrains using alter table
 Master Data:
 
     Users: 
-    table name:             Object Name:
-    users_registered        m01_users_registered.seq
-    users_addresses         m02_users_registered.seq
-    users_geo_location      m03_users_registered.seq    
+           
+    users_registered          
+    users_addresses           
+    users_geo_location         
 
     Products
-    table name:                     Object Name:
-    1. product_taxonomies           m11_product_taxonomies.seq
-    2. products                     m12_products.seq
-    3. product_variants             m13_product_variants.seq
-    4. product_varinat_attributes   m14_product_varinat_attributes.seq
+               
+    1. product_taxonomies         
+    2. products                   
+    3. product_variants            
+    4. product_varinat_attributes  
 
 Transaction Data:
-    table name:                     Object Name:
-    product_stocks                  t01_product_stocks.seq
-    orders                          t11_orders.seq
-    order_lines                     t12_order_lines.seq
-    order_payments                  t13_order_payments.seq
+                 
+    product_stocks                 
+    orders                        
+    order_lines                   
+    order_payments               
 
 -----------------------------------------------
 
