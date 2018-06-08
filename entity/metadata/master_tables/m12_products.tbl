@@ -6,7 +6,8 @@
 -----------------------------------------------------------------------------------------------------
 --  Date          Author          Version    Reason
 -------------- ---------------    -------- ----------------------------------------------------------
--- 05-JUn-2018    Abhishek        1.0       
+-- 05-JUn-2018    Abhishek        1.0        Initial Creation  
+-- 08-JUn-2018    Gaurav          1.1        Added NOT NULL , PRIMARY KEY 
 -----------------------------------------------------------------------------------------------------
 CREATE TABLE products (
     product_id             NUMBER,
@@ -19,3 +20,9 @@ CREATE TABLE products (
     shipping_category_id   NUMBER,
     count_on_hand          NUMBER
 );
+-------------------------------------------------------------------------------
+alter table products add taxonomy_id number(10,0) NOT NULL;
+alter table products modify product_id not null;
+alter table products add constraint products_PK PRIMARY KEY (product_id,taxonomy_id);
+alter table products add CONSTRAINT products_FK FOREIGN KEY (taxonomy_id) REFERENCES product_taxonomies(taxonomy_id);
+-------------------------------------------------------------------------------

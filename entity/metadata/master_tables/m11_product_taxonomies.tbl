@@ -7,7 +7,8 @@ create table product_taxonomies
 -----------------------------------------------------------------------------------------------------
 --  Date          Author          Version    Reason
 -------------- ---------------    -------- ----------------------------------------------------------
--- 05-JUn-2018    Abhishek        1.0       
+-- 05-JUn-2018    Abhishek        1.0         Initial Creation
+-- 08-JUn-2018    Gaurav          1.1         Added NOT NULL , PRIMARY KEY 
 -----------------------------------------------------------------------------------------------------
 (
     taxonomy_id number,
@@ -15,3 +16,7 @@ create table product_taxonomies
     created_at date,
     updated_at date
 );
+----------------------------------------------------------------------------------------------
+alter table product_taxonomies modify taxonomy_id not null;
+alter table product_taxonomies add constraint product_taxonomies_PK PRIMARY KEY (taxonomy_id);
+----------------------------------------------------------------------------------------------

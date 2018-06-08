@@ -7,7 +7,7 @@
 --  Date          Author          Version    Reason
 -------------- ---------------    -------- ----------------------------------------------------------
 -- 05-Jun-2018    Gaurav          1.0       Initial creation
--- 05-JUn-2018    Abhishek        1.1       added warehouse FK const
+-- 08-JUn-2018    Gaurav          1.1       Added NOT NULL , PRIMARY KEY ,Foreign Key,Added new COLUMNS
 -----------------------------------------------------------------------------------------------------
 
 create table product_stocks (
@@ -19,3 +19,11 @@ create table product_stocks (
 	Stock_Qty INT,
 	Warehouse INT
 );
+-----------------------------------------------------------------------------------------------------------------------------------
+alter table product_stocks modify Product_ID not null;
+alter table product_stocks modify Product_tax_id not null;
+alter table product_stocks modify Variant_id not null;
+alter table product_stocks add Product_Vari_att_Id number(10,0) NOT NULL;
+alter table product_stocks add Product_Stock_No number(10,0) NOT NULL;
+alter table product_stocks add constraint product_stocks_PK PRIMARY KEY (Product_Stock_No);
+--------------------------------------------------------------------------------------------------------------------------------------

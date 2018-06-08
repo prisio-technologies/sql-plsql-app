@@ -7,6 +7,7 @@
 --  Date          Author          Version    Reason
 -------------- ---------------    -------- ----------------------------------------------------------
 -- 06-Jun-2018    Gaurav          1.0       Initial creation
+-- 08-Jun-2018    Gaurav          1.1       Added NOT NULL , PRIMARY KEY & FOREGIN KEY CONSTRAINTS
 -----------------------------------------------------------------------------------------------------
 create table users_geo_location (
 	Geo_Loc_id INT,
@@ -15,3 +16,10 @@ create table users_geo_location (
 	Latitude VARCHAR(50),
 	Longitude VARCHAR(50)
 );
+--------------------------------------------------------------------------------------------------------------------------
+alter table users_geo_location modify Geo_Loc_id not null;
+alter table users_geo_location modify Address_ID number(10,0) not null;
+alter table users_geo_location modify User_id not null;
+alter table users_geo_location add constraint users_geo_location_PK PRIMARY KEY (Geo_Loc_id,User_id,Address_ID);
+alter table users_geo_location add CONSTRAINT users_geo_location_FK FOREIGN KEY (User_id,Address_ID) REFERENCES users_addresses(User_ID,Address_ID);
+-------------------------------------------------------------------------------------------------------------------------------

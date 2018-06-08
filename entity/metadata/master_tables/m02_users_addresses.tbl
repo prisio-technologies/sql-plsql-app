@@ -6,8 +6,9 @@
 -----------------------------------------------------------------------------------------------------
 --  Date          Author          Version    Reason
 -------------- ---------------    -------- ----------------------------------------------------------
--- 06-Jun-2018    Sonali/Neha          1.0       Initial creation
------------------------------------------------------------------------------------------------------
+-- 06-Jun-2018    Sonali/Neha        1.0       Initial creation
+-- 08-Jun-2018    Gaurav             1.1       Added NOT NULL , PRIMARY KEY & FOREGIN KEY CONSTRAINTS
+----------------------------------------------------------------------------------------------------
 
 create table users_addresses (
 	User_ID INT,
@@ -19,3 +20,9 @@ create table users_addresses (
 	CountryCode VARCHAR(50),
 	PostalCode VARCHAR(50)
 );
+-----------------------------------------------------------------------------
+alter table users_addresses modify Address_ID not null;
+alter table users_addresses modify User_ID not null;
+alter table users_addresses add constraint users_addresses_PK PRIMARY KEY (Address_ID,User_ID);
+alter table users_addresses add CONSTRAINT users_addresses_FK FOREIGN KEY (User_ID) REFERENCES users_registered(User_ID);
+-----------------------------------------------------------------------------

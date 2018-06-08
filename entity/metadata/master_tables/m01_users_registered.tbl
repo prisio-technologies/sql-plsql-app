@@ -6,7 +6,8 @@
 -----------------------------------------------------------------------------------------------------
 --  Date          Author          Version    Reason
 -------------- ---------------    -------- ----------------------------------------------------------
--- 05-Jun-2018    Sonali/Neha          1.0       Initial creation
+-- 05-Jun-2018    Sonali/Neha        1.0     Initial creation
+-- 08-Jun-2018    Gaurav             1.1     Added NOT NULL & Primary keys 
 -----------------------------------------------------------------------------------------------------
 
 
@@ -19,3 +20,9 @@ create table users_registered (
 	Phone_no VARCHAR(50),
 	Date_of_Birth DATE
 );
+
+------------------------------------------------------------------------------
+alter table users_registered modify User_ID not null;
+alter table users_registered modify Phone_no not null;
+alter table users_registered add constraint users_registered_PK PRIMARY KEY (User_ID,Phone_no);
+-----------------------------------------------------------------------------

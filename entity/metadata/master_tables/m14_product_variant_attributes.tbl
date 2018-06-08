@@ -1,0 +1,24 @@
+----------------------------------------------------------------------------------------------------
+-- File name       : product_taxonomies.tbl
+-- Author          : Abhishek
+-- Created         : 05-Jun-2018
+-- Description     : Contains product family infomation
+-----------------------------------------------------------------------------------------------------
+--  Date          Author          Version    Reason
+-------------- ---------------    -------- ----------------------------------------------------------
+-- 08-JUn-2018    Gaurav            1.1        Added NOT NULL , PRIMARY KEY ,Foreign Key, Added new Columns
+-----------------------------------------------------------------------------------------------------
+create table product_variant_attributes (
+Product_Quality VARCHAR(9),
+Product_Colour VARCHAR(50),
+Product_Size VARCHAR(10),
+Product_ID INT
+);
+---------------------------------------------------------------------------------------------------------------------
+alter table product_variant_attributes modify Product_ID not null;
+alter table product_variant_attributes add Product_Variant_Id number(10,0) NOT NULL;
+alter table product_variant_attributes add Product_Vari_att_Id number(10,0) NOT NULL;
+alter table product_variant_attributes add taxonomy_id number(10,0) NOT NULL;
+alter table product_variant_attributes add constraint product_vari_att_PK PRIMARY KEY (Product_ID,Product_Variant_Id,taxonomy_id,Product_Vari_att_Id);
+alter table product_variant_attributes add CONSTRAINT product_vari_att_FK FOREIGN KEY (Product_ID,Product_Variant_Id,taxonomy_id) REFERENCES Product_Variant(Product_ID,Product_Variant_Id,taxonomy_id);
+---------------------------------------------------------------------------------------------------------------------

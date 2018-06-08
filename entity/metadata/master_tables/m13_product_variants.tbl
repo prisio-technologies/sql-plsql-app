@@ -1,3 +1,13 @@
+----------------------------------------------------------------------------------------------------
+-- File name       : product_taxonomies.tbl
+-- Author          : Abhishek
+-- Created         : 05-Jun-2018
+-- Description     : Contains product family infomation
+-----------------------------------------------------------------------------------------------------
+--  Date          Author          Version    Reason
+-------------- ---------------    -------- ----------------------------------------------------------
+-- 08-JUn-2018    Gaurav            1.1        Added NOT NULL , PRIMARY KEY ,Foreign Key, Added new Columns
+-----------------------------------------------------------------------------------------------------
 create table Product_Variant (
 	Product_price Number(10),
 	Product_Weight Number(10),
@@ -6,3 +16,10 @@ create table Product_Variant (
 	Product_Depth Number(10),
 	Product_DeletedAt Date
 );
+------------------------------------------------------------------------------------------------------------------------
+alter table Product_Variant add Product_Id number(10,0) NOT NULL;
+alter table Product_Variant add Product_Variant_Id number(10,0) NOT NULL;
+alter table Product_Variant add taxonomy_id number(10,0) NOT NULL;
+alter table Product_Variant add constraint Product_Variant_PK PRIMARY KEY (Product_Id,Product_Variant_Id,taxonomy_id);
+alter table Product_Variant add CONSTRAINT Product_Variant_FK FOREIGN KEY (Product_Id,taxonomy_id) REFERENCES products(Product_Id,taxonomy_id);
+-------------------------------------------------------------------------------------------------------------------------
