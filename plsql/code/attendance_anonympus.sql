@@ -80,6 +80,36 @@ BEGIN
                     WHERE id= c1_rec.id;
              end if;            
         end if;  
+--        dbms_output.put_line('ID:' || c1_rec.id ||'-'||c1_rec.punchtime||'-'||c1_rec.direction);
+
     END LOOP;
-  
+    
+--calculation of time difference    
+
+    v_counter: =0;
+
+    duration :=0.0;
+
+    for c_duration in c_valid loop
+        duration := duration +1; 
+        dbms_output.put_line('n-PRINT'||V_COUNTER);
+        --check if even is always OUT and odd is always IN.
+        if mod(v_counter,2) = 1 then
+            dbms_output.put_line(v_counter||'-Odd'); -- IN
+              v_timestap =   c_duration.punchtime;
+              
+        else
+            dbms_output.put_line(v_counter||'-Even'); -- IN
+                   
+        end if;  
+
+
+
+
+    end loop
+
+
+
+
+    
 END;
