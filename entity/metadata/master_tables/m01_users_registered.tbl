@@ -24,5 +24,6 @@ create table users_registered (
 ------------------------------------------------------------------------------
 alter table users_registered modify User_ID not null;
 alter table users_registered modify Phone_no not null;
-alter table users_registered add constraint users_registered_PK PRIMARY KEY (User_ID,Phone_no);
+alter table users_registered drop constraint users_registered_PK;
+alter table users_registered add constraint users_registered_PK PRIMARY KEY (User_ID);
 -----------------------------------------------------------------------------
