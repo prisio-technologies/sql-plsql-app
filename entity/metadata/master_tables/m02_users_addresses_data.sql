@@ -1,0 +1,11 @@
+
+insert into USERS_ADDRESSES ( USER_ID, ADDRESS_ID, ADDRESS, CITY, STATE, COUNTRY, COUNTRYCODE, POSTALCODE )  
+values ( '1', '1', 'E-45 garden street', 'jaipur', 'rajasthan', 'india', 'IN', '302018' )
+insert into USERS_ADDRESSES ( USER_ID, ADDRESS_ID, ADDRESS, CITY, STATE, COUNTRY, COUNTRYCODE, POSTALCODE ) 
+values ( '1', '2',	'E-46 park street', 'jaipur', 'rajasthan', 'india', 'IN', '302018' )
+insert into USERS_ADDRESSES ( USER_ID, ADDRESS_ID, ADDRESS, CITY, STATE, COUNTRY, COUNTRYCODE, POSTALCODE ) 
+values ( '1', '3', 'E-47 prince street', 'jaipur', 'rajasthan', 'india', 'IN', '302018' )
+insert into USERS_ADDRESSES ( USER_ID, ADDRESS_ID, ADDRESS, CITY, STATE, COUNTRY, COUNTRYCODE, POSTALCODE ) 
+values ( '2', '4', '240 manglam street', 'jaipur', 'rajasthan', 'india', 'IN', '302018' )
+insert into USERS_ADDRESSES ( USER_ID, ADDRESS_ID, ADDRESS, CITY, STATE, COUNTRY, COUNTRYCODE, POSTALCODE ) 
+values ( '3', '5', 'metropolis street', 'jaipur', 'rajasthan', 'india', 'IN', '302018' )
