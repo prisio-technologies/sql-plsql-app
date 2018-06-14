@@ -1,108 +1,3003 @@
-create table productsVariant (
-	Product_price VARCHAR(50),
-	Product_Weight  VARCHAR(15),
-	Product_Height  VARCHAR(5),
-	Product_Width  VARCHAR(6),
-	Product_Depth  VARCHAR(12),
-	Product_DeletedAt  DATE
-);
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$9.09', 'extremely heavy', '21*5', 'wide', 'deep', '18-Jan-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$5.85', 'light', '11*33', 'wide', 'hollow', '08-Jul-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$9.05', 'medium', '24*7', 'wide', 'deep', '01-Mar-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$8.01', 'medium', '11*33', 'narrow', 'deep', '23-Aug-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$8.97', 'medium', '55*8', 'wide', 'hollow', '16-May-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$9.23', 'medium', '7*6', 'medium', 'cylinedrical', '29-Jul-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$6.33', 'light', '24*7', 'wide', 'cylinedrical', '06-Aug-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$4.75', 'extremely heavy', '55*8', 'narrow', 'deep', '12-Aug-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$6.84', 'medium', '7*6', 'narrow', 'hollow', '09-Oct-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$4.43', 'light', '7*6', 'medium', 'deep', '09-Nov-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$4.82', 'light', '21*5', 'wide', 'deep', '30-Aug-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$9.78', 'medium', '55*8', 'narrow', 'cylinedrical', '22-Apr-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$0.72', 'extremely heavy', '11*33', 'wide', 'cylinedrical', '27-Feb-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$7.38', 'extremely heavy', '21*5', 'narrow', 'hollow', '28-Jul-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$6.58', 'heavy', '21*5', 'wide', 'hollow', '06-Oct-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$8.38', 'extremely heavy', '21*5', 'medium', 'hollow', '08-Oct-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$4.50', 'extremely heavy', '55*8', 'wide', 'deep', '28-Oct-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$1.28', 'light', '55*8', 'medium', 'deep', '13-Aug-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$0.41', 'light', '55*8', 'medium', 'deep', '05-Feb-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$4.09', 'medium', '24*7', 'narrow', 'cylinedrical', '16-May-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$9.71', 'light', '55*8', 'narrow', 'cylinedrical', '12-Mar-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$7.47', 'medium', '24*7', 'narrow', 'cylinedrical', '28-May-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$4.60', 'medium', '11*33', 'wide', 'deep', '28-Jul-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$4.23', 'extremely heavy', '11*33', 'medium', 'deep', '19-Jun-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$5.26', 'light', '55*8', 'medium', 'hollow', '27-Jan-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$5.08', 'medium', '11*33', 'wide', 'hollow', '21-Feb-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$4.21', 'light', '21*5', 'medium', 'hollow', '31-Oct-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$4.25', 'heavy', '7*6', 'narrow', 'cylinedrical', '21-Jan-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$2.43', 'heavy', '7*6', 'wide', 'deep', '17-Nov-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$5.07', 'extremely heavy', '21*5', 'narrow', 'hollow', '11-Aug-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$8.20', 'medium', '21*5', 'wide', 'hollow', '27-Sep-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$6.57', 'light', '11*33', 'narrow', 'cylinedrical', '28-Nov-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$7.89', 'medium', '24*7', 'narrow', 'cylinedrical', '01-Apr-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$3.39', 'extremely heavy', '24*7', 'medium', 'deep', '17-Jul-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$0.32', 'light', '7*6', 'medium', 'cylinedrical', '10-Sep-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$0.85', 'light', '11*33', 'medium', 'cylinedrical', '01-Oct-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$0.91', 'extremely heavy', '21*5', 'wide', 'cylinedrical', '14-Jun-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$3.48', 'heavy', '11*33', 'narrow', 'deep', '30-Aug-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$5.69', 'extremely heavy', '21*5', 'wide', 'deep', '13-Jun-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$0.35', 'extremely heavy', '24*7', 'narrow', 'deep', '24-Jan-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$0.85', 'medium', '55*8', 'narrow', 'cylinedrical', '20-May-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$7.55', 'medium', '21*5', 'medium', 'deep', '22-Aug-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$3.83', 'heavy', '24*7', 'medium', 'hollow', '01-Jun-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$8.89', 'heavy', '21*5', 'medium', 'deep', '13-Oct-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$5.93', 'light', '7*6', 'narrow', 'deep', '13-Dec-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$6.36', 'medium', '7*6', 'medium', 'hollow', '15-Jan-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$3.34', 'extremely heavy', '21*5', 'wide', 'cylinedrical', '24-Apr-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$9.77', 'extremely heavy', '55*8', 'narrow', 'hollow', '13-Jun-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$6.33', 'heavy', '7*6', 'wide', 'hollow', '26-Jan-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$3.99', 'medium', '11*33', 'narrow', 'hollow', '15-Mar-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$8.68', 'light', '7*6', 'narrow', 'cylinedrical', '08-Jan-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$4.58', 'light', '11*33', 'wide', 'deep', '09-Jun-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$1.34', 'medium', '11*33', 'wide', 'hollow', '20-May-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$1.62', 'light', '24*7', 'narrow', 'hollow', '22-Jul-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$5.88', 'medium', '55*8', 'narrow', 'cylinedrical', '21-Jun-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$8.46', 'extremely heavy', '55*8', 'wide', 'hollow', '13-Sep-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$7.97', 'medium', '11*33', 'wide', 'deep', '25-Nov-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$9.46', 'light', '24*7', 'narrow', 'cylinedrical', '08-May-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$8.51', 'heavy', '55*8', 'narrow', 'deep', '14-Feb-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$4.35', 'light', '21*5', 'narrow', 'deep', '09-Mar-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$5.28', 'extremely heavy', '24*7', 'narrow', 'deep', '27-Mar-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$8.83', 'heavy', '21*5', 'medium', 'cylinedrical', '09-Feb-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$1.53', 'medium', '24*7', 'narrow', 'deep', '05-Dec-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$5.25', 'medium', '21*5', 'wide', 'cylinedrical', '14-Jun-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$2.93', 'extremely heavy', '55*8', 'narrow', 'cylinedrical', '23-Jun-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$7.08', 'medium', '7*6', 'medium', 'hollow', '26-Feb-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$0.69', 'light', '55*8', 'narrow', 'hollow', '24-May-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$8.65', 'heavy', '24*7', 'wide', 'cylinedrical', '27-Mar-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$5.63', 'medium', '55*8', 'narrow', 'deep', '12-Sep-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$3.13', 'light', '55*8', 'medium', 'deep', '07-May-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$2.98', 'heavy', '21*5', 'wide', 'hollow', '20-Oct-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$5.14', 'medium', '55*8', 'narrow', 'cylinedrical', '06-Dec-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$9.21', 'medium', '7*6', 'medium', 'hollow', '09-Sep-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$8.21', 'extremely heavy', '21*5', 'medium', 'deep', '07-Sep-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$5.86', 'medium', '7*6', 'wide', 'cylinedrical', '05-May-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$2.16', 'medium', '55*8', 'medium', 'hollow', '15-Sep-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$0.32', 'extremely heavy', '7*6', 'narrow', 'cylinedrical', '11-Jun-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$4.61', 'heavy', '21*5', 'wide', 'deep', '31-Dec-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$7.86', 'medium', '24*7', 'narrow', 'deep', '29-Apr-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$0.42', 'light', '24*7', 'wide', 'hollow', '11-Aug-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$9.27', 'light', '55*8', 'narrow', 'deep', '14-Aug-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$4.55', 'light', '24*7', 'narrow', 'deep', '17-Jun-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$1.38', 'extremely heavy', '7*6', 'wide', 'hollow', '11-Oct-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$8.89', 'medium', '11*33', 'medium', 'hollow', '17-Oct-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$6.87', 'light', '11*33', 'wide', 'hollow', '21-Jan-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$8.72', 'extremely heavy', '7*6', 'narrow', 'deep', '30-Sep-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$6.92', 'extremely heavy', '21*5', 'medium', 'hollow', '08-Dec-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$7.66', 'heavy', '11*33', 'medium', 'cylinedrical', '30-Nov-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$8.93', 'medium', '11*33', 'narrow', 'deep', '28-Jun-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$9.78', 'light', '11*33', 'medium', 'cylinedrical', '17-Sep-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$9.68', 'extremely heavy', '7*6', 'medium', 'cylinedrical', '02-Jul-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$9.50', 'heavy', '24*7', 'medium', 'cylinedrical', '11-Jan-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$8.55', 'light', '11*33', 'medium', 'deep', '06-May-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$2.97', 'light', '7*6', 'medium', 'deep', '11-Jan-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$3.06', 'heavy', '24*7', 'medium', 'hollow', '11-Oct-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$3.58', 'medium', '55*8', 'medium', 'cylinedrical', '18-Jan-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$7.44', 'extremely heavy', '7*6', 'wide', 'deep', '23-Mar-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$5.15', 'medium', '55*8', 'medium', 'cylinedrical', '26-Oct-2017');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$7.35', 'light', '55*8', 'medium', 'deep', '14-Apr-2018');
-insert into productsVariant (Product_price, Product_Weight , Product_Height , Product_Width , Product_Depth , Product_DeletedAt ) values ('$7.77', 'light', '55*8', 'narrow', 'hollow', '03-Apr-2018');
+SET DEFINE OFF
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (579, 814, 14, 167, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10000, 100000, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (164, 723, 30, 176, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10000, 100001, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (302, 910, 25, 154, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10001, 100002, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (730, 980, 11, 145, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10001, 100003, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (216, 975, 12, 76, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10002, 100004, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (500, 603, 11, 85, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10002, 100005, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (552, 543, 18, 97, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10003, 100006, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (232, 735, 18, 185, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10003, 100007, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (876, 257, 12, 150, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10004, 100008, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (889, 337, 17, 160, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10004, 100009, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (787, 501, 18, 146, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10005, 100010, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (111, 697, 16, 174, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10005, 100011, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (288, 387, 23, 34, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10006, 100012, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (300, 656, 17, 95, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10006, 100013, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (467, 333, 19, 198, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10007, 100014, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (183, 900, 17, 88, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10007, 100015, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (216, 458, 17, 82, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10008, 100016, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (998, 878, 17, 172, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10008, 100017, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (128, 180, 26, 14, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10009, 100018, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (568, 951, 26, 101, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10009, 100019, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (795, 621, 20, 91, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10010, 100020, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (223, 588, 21, 33, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10010, 100021, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (586, 201, 29, 22, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10011, 100022, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (183, 143, 13, 161, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10011, 100023, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (438, 459, 13, 192, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10012, 100024, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (649, 637, 16, 72, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10012, 100025, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (940, 870, 19, 148, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10013, 100026, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (473, 242, 11, 119, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10013, 100027, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (548, 248, 20, 58, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10014, 100028, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (879, 513, 29, 24, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10014, 100029, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (585, 661, 18, 170, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10015, 100030, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (286, 697, 15, 187, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10015, 100031, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (421, 697, 23, 138, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10016, 100032, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (364, 981, 30, 20, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10016, 100033, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (624, 378, 17, 156, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10017, 100034, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (947, 794, 27, 146, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10017, 100035, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (445, 501, 19, 22, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10018, 100036, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (723, 733, 24, 129, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10018, 100037, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (255, 969, 23, 50, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10019, 100038, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (112, 307, 22, 70, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10019, 100039, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (109, 812, 28, 89, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10020, 100040, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (389, 413, 15, 172, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10020, 100041, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (173, 753, 26, 101, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10021, 100042, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (742, 124, 27, 149, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10021, 100043, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (379, 243, 11, 38, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10022, 100044, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (637, 487, 15, 145, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10022, 100045, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (863, 534, 23, 101, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10023, 100046, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (845, 423, 13, 10, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10023, 100047, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (365, 890, 16, 130, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10024, 100048, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (761, 985, 22, 75, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10024, 100049, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (632, 890, 29, 190, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10025, 100050, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (839, 932, 25, 56, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10025, 100051, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (992, 267, 21, 99, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10026, 100052, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (857, 885, 12, 176, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10026, 100053, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (739, 790, 12, 160, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10027, 100054, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (842, 313, 15, 154, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10027, 100055, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (973, 571, 16, 102, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10028, 100056, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (296, 551, 18, 59, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10028, 100057, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (745, 800, 16, 149, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10029, 100058, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (296, 335, 19, 51, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10029, 100059, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (278, 533, 17, 127, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10030, 100060, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (969, 107, 13, 185, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10030, 100061, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (692, 540, 14, 59, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10031, 100062, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (764, 287, 28, 152, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10031, 100063, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (694, 472, 27, 64, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10032, 100064, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (171, 324, 12, 27, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10032, 100065, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (300, 669, 18, 45, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10033, 100066, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (842, 319, 22, 144, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10033, 100067, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (522, 671, 26, 91, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10034, 100068, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (437, 857, 21, 24, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10034, 100069, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (380, 737, 26, 83, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10035, 100070, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (901, 867, 20, 24, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10035, 100071, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (909, 341, 18, 74, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10036, 100072, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (719, 279, 29, 55, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10036, 100073, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (276, 549, 19, 33, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10037, 100074, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (830, 849, 20, 187, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10037, 100075, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (296, 812, 27, 154, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10038, 100076, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (292, 457, 29, 172, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10038, 100077, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (536, 185, 24, 18, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10039, 100078, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (609, 448, 29, 67, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10039, 100079, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (232, 128, 20, 147, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10040, 100080, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (724, 371, 16, 94, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10040, 100081, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (168, 858, 21, 112, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10041, 100082, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (292, 422, 17, 104, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10041, 100083, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (607, 155, 10, 82, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10042, 100084, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (576, 747, 17, 92, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10042, 100085, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (836, 110, 10, 98, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10043, 100086, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (286, 373, 28, 26, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10043, 100087, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (231, 464, 26, 67, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10044, 100088, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (909, 145, 11, 147, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10044, 100089, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (665, 822, 23, 186, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10045, 100090, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (787, 449, 30, 37, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10045, 100091, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (526, 536, 21, 15, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10046, 100092, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (242, 248, 10, 144, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10046, 100093, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (628, 953, 24, 155, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10047, 100094, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (485, 313, 28, 152, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10047, 100095, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (332, 474, 11, 197, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10048, 100096, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (187, 550, 13, 192, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10048, 100097, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (450, 319, 30, 177, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10049, 100098, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (675, 493, 28, 75, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10049, 100099, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (647, 922, 10, 164, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10050, 100100, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (872, 465, 14, 140, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10050, 100101, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (827, 277, 24, 80, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10051, 100102, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (445, 904, 17, 67, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10051, 100103, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (374, 394, 25, 181, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10052, 100104, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (654, 661, 26, 96, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10052, 100105, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (297, 844, 14, 162, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10053, 100106, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (652, 708, 27, 158, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10053, 100107, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (553, 471, 21, 157, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10054, 100108, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (707, 646, 14, 34, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10054, 100109, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (220, 339, 11, 87, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10055, 100110, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (680, 572, 25, 32, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10055, 100111, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (319, 746, 23, 145, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10056, 100112, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (421, 547, 19, 157, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10056, 100113, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (112, 640, 12, 13, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10057, 100114, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (197, 523, 23, 181, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10057, 100115, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (118, 348, 16, 14, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10058, 100116, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (190, 678, 19, 59, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10058, 100117, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (606, 415, 14, 73, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10059, 100118, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (331, 823, 25, 185, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10059, 100119, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (244, 112, 18, 144, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10060, 100120, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (156, 545, 12, 173, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10060, 100121, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (179, 580, 21, 101, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10061, 100122, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (909, 810, 19, 58, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10061, 100123, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (656, 914, 23, 171, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10062, 100124, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (279, 591, 16, 199, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10062, 100125, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (681, 982, 15, 140, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10063, 100126, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (936, 440, 23, 109, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10063, 100127, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (117, 435, 29, 99, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10064, 100128, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (541, 395, 15, 178, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10064, 100129, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (936, 662, 29, 141, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10065, 100130, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (460, 931, 22, 57, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10065, 100131, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (869, 470, 29, 53, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10066, 100132, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (254, 309, 20, 177, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10066, 100133, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (825, 653, 19, 121, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10067, 100134, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (557, 877, 28, 73, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10067, 100135, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (181, 787, 25, 175, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10068, 100136, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (336, 220, 21, 31, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10068, 100137, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (767, 377, 21, 44, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10069, 100138, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (980, 452, 30, 197, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10069, 100139, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (268, 946, 27, 146, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10070, 100140, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (549, 950, 27, 116, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10070, 100141, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (877, 204, 26, 181, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10071, 100142, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (660, 846, 19, 167, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10071, 100143, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (529, 294, 16, 28, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10072, 100144, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (568, 134, 11, 13, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10072, 100145, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (876, 429, 21, 197, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10073, 100146, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (941, 880, 14, 101, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10073, 100147, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (454, 772, 23, 123, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10074, 100148, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (479, 905, 27, 29, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10074, 100149, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (131, 552, 28, 146, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10075, 100150, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (565, 433, 13, 43, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10075, 100151, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (224, 135, 25, 11, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10076, 100152, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (997, 729, 22, 94, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10076, 100153, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (105, 290, 14, 200, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10077, 100154, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (568, 601, 22, 165, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10077, 100155, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (936, 792, 26, 116, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10078, 100156, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (998, 474, 21, 188, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10078, 100157, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (806, 764, 17, 75, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10079, 100158, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (775, 219, 10, 117, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10079, 100159, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (835, 927, 14, 129, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10080, 100160, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (492, 839, 20, 56, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10080, 100161, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (472, 101, 27, 15, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10081, 100162, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (821, 637, 23, 93, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10081, 100163, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (433, 472, 26, 140, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10082, 100164, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (839, 296, 19, 118, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10082, 100165, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (538, 616, 11, 108, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10083, 100166, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (251, 211, 19, 47, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10083, 100167, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (213, 454, 23, 178, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10084, 100168, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (951, 919, 27, 146, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10084, 100169, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (562, 355, 13, 165, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10085, 100170, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (690, 936, 15, 39, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10085, 100171, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (243, 647, 12, 65, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10086, 100172, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (157, 665, 15, 44, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10086, 100173, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (816, 292, 30, 28, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10087, 100174, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (753, 443, 14, 69, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10087, 100175, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (434, 900, 11, 105, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10088, 100176, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (779, 960, 21, 178, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10088, 100177, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (144, 376, 13, 59, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10089, 100178, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (158, 215, 26, 90, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10089, 100179, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (257, 367, 10, 131, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10090, 100180, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (122, 750, 24, 199, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10090, 100181, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (379, 884, 11, 161, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10091, 100182, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (496, 289, 23, 64, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10091, 100183, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (578, 258, 19, 57, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10092, 100184, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (887, 584, 15, 11, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10092, 100185, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (837, 703, 28, 189, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10093, 100186, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (748, 400, 17, 158, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10093, 100187, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (128, 294, 14, 200, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10094, 100188, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (416, 830, 27, 15, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10094, 100189, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (186, 280, 29, 89, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10095, 100190, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (751, 919, 18, 179, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10095, 100191, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (140, 192, 21, 45, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10096, 100192, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (289, 679, 25, 38, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10096, 100193, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (870, 751, 14, 77, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10097, 100194, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (361, 852, 24, 83, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10097, 100195, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (510, 1000, 22, 165, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10098, 100196, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (954, 555, 16, 101, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10098, 100197, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (629, 743, 29, 191, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10099, 100198, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (848, 877, 11, 143, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10099, 100199, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (986, 875, 15, 171, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10100, 100200, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (710, 498, 18, 167, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10100, 100201, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (691, 171, 28, 63, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10101, 100202, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (564, 268, 19, 18, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10101, 100203, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (181, 228, 15, 182, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10102, 100204, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (592, 279, 29, 84, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10102, 100205, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (264, 740, 29, 17, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10103, 100206, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (156, 173, 27, 108, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10103, 100207, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (148, 764, 14, 96, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10104, 100208, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (777, 214, 24, 46, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10104, 100209, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (173, 215, 19, 174, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10105, 100210, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (148, 885, 11, 16, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10105, 100211, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (847, 230, 22, 19, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10106, 100212, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (650, 455, 17, 168, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10106, 100213, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (201, 104, 24, 62, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10107, 100214, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (182, 143, 14, 199, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10107, 100215, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (848, 506, 30, 46, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10108, 100216, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (865, 683, 11, 15, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10108, 100217, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (382, 975, 23, 146, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10109, 100218, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (274, 340, 13, 79, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10109, 100219, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (953, 617, 24, 137, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10110, 100220, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (551, 292, 16, 66, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10110, 100221, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (939, 580, 24, 63, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10111, 100222, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (811, 739, 25, 137, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10111, 100223, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (247, 612, 29, 114, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10112, 100224, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (259, 109, 22, 41, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10112, 100225, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (659, 652, 29, 66, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10113, 100226, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (216, 674, 15, 29, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10113, 100227, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (975, 915, 24, 103, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10114, 100228, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (989, 1000, 10, 128, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10114, 100229, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (231, 584, 20, 198, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10115, 100230, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (859, 244, 16, 52, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10115, 100231, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (963, 793, 10, 125, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10116, 100232, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (109, 972, 29, 109, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10116, 100233, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (475, 782, 19, 137, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10117, 100234, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (385, 411, 26, 69, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10117, 100235, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (913, 824, 21, 101, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10118, 100236, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (534, 989, 25, 188, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10118, 100237, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (139, 323, 29, 86, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10119, 100238, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (552, 220, 18, 10, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10119, 100239, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (874, 795, 20, 79, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10120, 100240, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (110, 335, 21, 192, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10120, 100241, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (670, 225, 11, 32, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10121, 100242, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (625, 843, 11, 43, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10121, 100243, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (987, 846, 26, 20, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10122, 100244, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (575, 964, 29, 155, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10122, 100245, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (531, 324, 27, 153, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10123, 100246, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (506, 741, 19, 118, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10123, 100247, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (174, 662, 20, 102, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10124, 100248, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (591, 207, 13, 108, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10124, 100249, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (793, 208, 21, 52, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10125, 100250, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (324, 554, 24, 183, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10125, 100251, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (853, 799, 17, 39, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10126, 100252, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (612, 459, 11, 192, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10126, 100253, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (242, 898, 24, 145, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10127, 100254, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (732, 145, 26, 69, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10127, 100255, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (191, 491, 11, 63, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10128, 100256, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (634, 920, 13, 28, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10128, 100257, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (910, 951, 22, 101, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10129, 100258, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (331, 929, 18, 150, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10129, 100259, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (393, 371, 14, 131, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10130, 100260, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (161, 824, 11, 117, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10130, 100261, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (683, 942, 29, 188, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10131, 100262, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (637, 904, 16, 134, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10131, 100263, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (400, 900, 30, 141, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10132, 100264, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (770, 773, 29, 174, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10132, 100265, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (188, 952, 16, 45, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10133, 100266, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (296, 749, 20, 43, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10133, 100267, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (286, 436, 17, 90, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10134, 100268, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (538, 411, 29, 21, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10134, 100269, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (394, 232, 30, 85, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10135, 100270, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (713, 173, 27, 14, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10135, 100271, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (527, 401, 29, 138, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10136, 100272, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (401, 456, 17, 187, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10136, 100273, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (205, 497, 28, 81, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10137, 100274, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (224, 893, 27, 191, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10137, 100275, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (353, 420, 23, 98, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10138, 100276, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (115, 124, 14, 139, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10138, 100277, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (575, 704, 24, 125, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10139, 100278, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (947, 917, 15, 43, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10139, 100279, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (441, 658, 17, 37, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10140, 100280, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (237, 191, 29, 97, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10140, 100281, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (181, 168, 16, 48, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10141, 100282, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (839, 241, 25, 188, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10141, 100283, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (305, 324, 23, 78, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10142, 100284, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (453, 716, 29, 64, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10142, 100285, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (784, 564, 21, 59, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10143, 100286, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (375, 563, 15, 163, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10143, 100287, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (582, 215, 24, 136, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10144, 100288, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (331, 630, 30, 135, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10144, 100289, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (638, 352, 20, 147, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10145, 100290, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (646, 435, 10, 193, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10145, 100291, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (816, 392, 19, 178, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10146, 100292, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (606, 953, 10, 151, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10146, 100293, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (417, 109, 10, 124, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10147, 100294, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (649, 474, 30, 133, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10147, 100295, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (382, 406, 17, 128, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10148, 100296, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (292, 898, 25, 12, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10148, 100297, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (132, 139, 10, 28, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10149, 100298, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (254, 416, 11, 128, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10149, 100299, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (147, 703, 19, 102, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10150, 100300, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (989, 127, 19, 122, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10150, 100301, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (445, 317, 19, 144, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10151, 100302, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (641, 449, 15, 180, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10151, 100303, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (902, 348, 25, 62, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10152, 100304, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (781, 893, 11, 177, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10152, 100305, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (839, 310, 29, 34, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10153, 100306, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (789, 880, 10, 178, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10153, 100307, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (247, 859, 16, 52, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10154, 100308, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (364, 457, 27, 113, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10154, 100309, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (940, 342, 10, 63, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10155, 100310, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (487, 745, 20, 174, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10155, 100311, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (207, 881, 19, 136, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10156, 100312, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (616, 444, 12, 11, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10156, 100313, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (288, 449, 25, 65, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10157, 100314, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (533, 299, 26, 69, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10157, 100315, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (717, 158, 24, 34, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10158, 100316, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (778, 497, 18, 122, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10158, 100317, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (756, 437, 10, 187, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10159, 100318, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (353, 148, 24, 58, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10159, 100319, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (364, 512, 22, 109, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10160, 100320, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (603, 802, 30, 33, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10160, 100321, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (706, 580, 23, 112, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10161, 100322, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (329, 576, 22, 67, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10161, 100323, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (287, 202, 19, 143, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10162, 100324, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (945, 541, 17, 147, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10162, 100325, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (162, 531, 26, 171, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10163, 100326, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (319, 299, 24, 96, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10163, 100327, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (252, 194, 25, 116, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10164, 100328, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (482, 425, 21, 177, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10164, 100329, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (528, 655, 28, 65, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10165, 100330, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (607, 651, 16, 186, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10165, 100331, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (832, 303, 23, 189, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10166, 100332, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (475, 516, 20, 173, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10166, 100333, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (474, 611, 11, 184, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10167, 100334, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (648, 597, 10, 140, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10167, 100335, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (167, 776, 23, 12, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10168, 100336, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (911, 719, 25, 14, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10168, 100337, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (859, 728, 29, 74, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10169, 100338, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (611, 311, 12, 188, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10169, 100339, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (731, 343, 14, 120, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10170, 100340, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (622, 494, 15, 103, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10170, 100341, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (361, 868, 27, 127, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10171, 100342, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (739, 933, 14, 197, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10171, 100343, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (588, 113, 23, 172, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10172, 100344, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (368, 687, 29, 165, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10172, 100345, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (499, 291, 30, 18, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10173, 100346, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (139, 510, 22, 167, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10173, 100347, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (477, 958, 20, 108, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10174, 100348, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (991, 456, 13, 14, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10174, 100349, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (230, 902, 28, 61, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10175, 100350, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (828, 546, 30, 19, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10175, 100351, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (181, 691, 22, 77, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10176, 100352, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (593, 470, 25, 158, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10176, 100353, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (102, 140, 25, 126, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10177, 100354, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (778, 486, 24, 197, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10177, 100355, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (125, 455, 17, 133, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10178, 100356, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (768, 661, 20, 85, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10178, 100357, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (634, 320, 20, 72, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10179, 100358, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (833, 652, 27, 152, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10179, 100359, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (810, 649, 23, 141, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10180, 100360, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (240, 769, 24, 110, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10180, 100361, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (894, 828, 21, 118, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10181, 100362, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (278, 221, 14, 12, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10181, 100363, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (374, 840, 17, 178, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10182, 100364, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (882, 894, 10, 16, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10182, 100365, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (844, 242, 28, 59, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10183, 100366, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (274, 158, 25, 107, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10183, 100367, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (349, 977, 16, 82, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10184, 100368, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (876, 243, 23, 189, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10184, 100369, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (292, 633, 14, 15, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10185, 100370, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (450, 287, 25, 85, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10185, 100371, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (500, 643, 22, 149, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10186, 100372, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (477, 891, 21, 105, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10186, 100373, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (565, 258, 23, 72, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10187, 100374, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (496, 912, 16, 191, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10187, 100375, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (103, 815, 30, 189, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10188, 100376, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (808, 476, 12, 93, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10188, 100377, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (156, 734, 22, 142, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10189, 100378, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (125, 841, 25, 138, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10189, 100379, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (705, 609, 11, 186, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10190, 100380, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (304, 794, 16, 172, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10190, 100381, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (261, 235, 29, 190, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10191, 100382, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (327, 818, 11, 75, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10191, 100383, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (816, 972, 24, 146, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10192, 100384, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (850, 378, 12, 116, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10192, 100385, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (162, 692, 12, 82, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10193, 100386, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (504, 816, 21, 163, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10193, 100387, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (688, 649, 13, 99, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10194, 100388, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (257, 243, 28, 22, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10194, 100389, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (135, 462, 25, 49, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10195, 100390, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (288, 249, 21, 155, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10195, 100391, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (388, 248, 20, 158, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10196, 100392, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (683, 692, 16, 152, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10196, 100393, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (828, 342, 24, 158, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10197, 100394, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (727, 370, 29, 196, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10197, 100395, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (649, 101, 25, 147, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10198, 100396, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (516, 489, 25, 141, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10198, 100397, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (915, 158, 17, 100, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10199, 100398, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (620, 309, 17, 34, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10199, 100399, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (956, 174, 29, 135, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10200, 100400, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (893, 709, 28, 32, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10200, 100401, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (331, 890, 29, 187, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10201, 100402, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (620, 629, 25, 80, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10201, 100403, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (705, 319, 25, 140, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10202, 100404, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (945, 872, 10, 177, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10202, 100405, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (572, 873, 19, 114, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10203, 100406, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (914, 647, 30, 73, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10203, 100407, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (192, 391, 10, 160, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10204, 100408, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (569, 183, 29, 24, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10204, 100409, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (292, 139, 24, 114, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10205, 100410, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (604, 179, 16, 183, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10205, 100411, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (170, 769, 16, 154, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10206, 100412, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (526, 937, 15, 67, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10206, 100413, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (230, 174, 28, 70, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10207, 100414, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (888, 491, 20, 153, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10207, 100415, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (964, 859, 11, 97, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10208, 100416, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (558, 646, 16, 77, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10208, 100417, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (311, 370, 25, 14, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10209, 100418, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (591, 347, 30, 41, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10209, 100419, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (838, 657, 20, 120, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10210, 100420, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (746, 734, 28, 177, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10210, 100421, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (444, 725, 22, 81, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10211, 100422, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (437, 308, 19, 124, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10211, 100423, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (409, 610, 11, 58, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10212, 100424, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (323, 713, 14, 182, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10212, 100425, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (906, 813, 18, 34, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10213, 100426, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (588, 267, 15, 60, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10213, 100427, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (547, 996, 14, 107, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10214, 100428, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (198, 213, 20, 41, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10214, 100429, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (546, 996, 29, 13, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10215, 100430, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (102, 916, 23, 13, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10215, 100431, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (505, 466, 26, 162, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10216, 100432, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (605, 162, 29, 84, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10216, 100433, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (350, 663, 15, 97, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10217, 100434, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (553, 863, 26, 34, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10217, 100435, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (831, 583, 20, 44, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10218, 100436, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (611, 568, 14, 153, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10218, 100437, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (634, 825, 23, 71, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10219, 100438, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (465, 722, 11, 197, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10219, 100439, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (903, 917, 30, 69, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10220, 100440, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (698, 836, 21, 140, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10220, 100441, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (767, 547, 26, 33, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10221, 100442, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (582, 878, 13, 149, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10221, 100443, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (768, 208, 25, 45, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10222, 100444, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (993, 361, 12, 44, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10222, 100445, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (203, 763, 25, 22, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10223, 100446, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (398, 903, 29, 128, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10223, 100447, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (807, 287, 11, 157, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10224, 100448, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (410, 967, 25, 69, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10224, 100449, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (405, 191, 28, 98, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10225, 100450, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (976, 942, 24, 80, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10225, 100451, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (238, 978, 21, 15, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10226, 100452, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (873, 671, 20, 40, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10226, 100453, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (841, 132, 15, 62, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10227, 100454, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (304, 687, 24, 133, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10227, 100455, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (286, 299, 17, 176, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10228, 100456, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (506, 679, 17, 47, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10228, 100457, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (897, 321, 22, 120, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10229, 100458, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (585, 916, 11, 75, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10229, 100459, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (792, 532, 23, 35, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10230, 100460, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (735, 563, 18, 184, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10230, 100461, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (342, 110, 25, 35, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10231, 100462, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (884, 154, 17, 150, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10231, 100463, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (248, 700, 18, 185, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10232, 100464, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (991, 351, 25, 172, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10232, 100465, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (815, 240, 27, 128, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10233, 100466, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (701, 136, 12, 166, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10233, 100467, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (643, 578, 17, 51, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10234, 100468, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (107, 955, 19, 103, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10234, 100469, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (690, 141, 27, 137, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10235, 100470, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (331, 573, 24, 40, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10235, 100471, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (433, 878, 29, 177, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10236, 100472, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (810, 393, 20, 37, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10236, 100473, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (379, 467, 16, 163, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10237, 100474, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (430, 962, 23, 53, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10237, 100475, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (109, 980, 25, 57, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10238, 100476, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (141, 310, 22, 145, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10238, 100477, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (159, 994, 29, 148, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10239, 100478, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (787, 561, 30, 55, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10239, 100479, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (522, 380, 16, 170, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10240, 100480, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (355, 644, 18, 105, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10240, 100481, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (266, 690, 22, 16, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10241, 100482, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (258, 921, 30, 198, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10241, 100483, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (322, 534, 26, 122, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10242, 100484, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (938, 837, 15, 77, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10242, 100485, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (893, 347, 30, 145, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10243, 100486, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (292, 158, 11, 115, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10243, 100487, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (119, 387, 11, 75, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10244, 100488, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (833, 508, 30, 128, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10244, 100489, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (274, 780, 16, 126, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10245, 100490, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (359, 667, 18, 26, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10245, 100491, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (153, 534, 11, 87, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10246, 100492, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (445, 623, 29, 183, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10246, 100493, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (960, 332, 22, 31, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10247, 100494, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (454, 535, 25, 166, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10247, 100495, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (980, 567, 14, 54, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10248, 100496, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (519, 298, 24, 17, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10248, 100497, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (695, 134, 29, 179, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10249, 100498, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (274, 525, 22, 144, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10249, 100499, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (902, 937, 20, 52, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10250, 100500, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (112, 655, 27, 104, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10250, 100501, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (515, 559, 15, 94, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10251, 100502, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (546, 593, 18, 103, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10251, 100503, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (661, 124, 12, 134, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10252, 100504, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (481, 231, 23, 17, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10252, 100505, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (846, 360, 14, 193, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10253, 100506, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (666, 602, 23, 22, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10253, 100507, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (802, 657, 12, 31, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10254, 100508, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (325, 659, 21, 155, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10254, 100509, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (436, 254, 30, 86, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10255, 100510, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (794, 425, 30, 106, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10255, 100511, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (269, 715, 16, 67, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10256, 100512, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (861, 439, 11, 28, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10256, 100513, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (283, 157, 20, 185, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10257, 100514, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (712, 477, 10, 100, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10257, 100515, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (136, 662, 10, 158, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10258, 100516, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (124, 266, 11, 91, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10258, 100517, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (481, 317, 28, 114, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10259, 100518, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (310, 761, 15, 80, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10259, 100519, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (872, 752, 24, 103, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10260, 100520, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (445, 972, 30, 60, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10260, 100521, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (330, 692, 30, 16, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10261, 100522, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (676, 521, 14, 107, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10261, 100523, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (965, 463, 11, 96, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10262, 100524, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (606, 289, 25, 158, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10262, 100525, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (360, 889, 30, 171, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10263, 100526, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (503, 840, 17, 185, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10263, 100527, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (942, 519, 24, 119, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10264, 100528, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (846, 337, 26, 150, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10264, 100529, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (850, 725, 30, 181, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10265, 100530, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (235, 974, 14, 49, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10265, 100531, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (766, 250, 22, 71, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10266, 100532, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (100, 536, 29, 17, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10266, 100533, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (470, 550, 12, 90, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10267, 100534, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (447, 604, 23, 178, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10267, 100535, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (573, 936, 13, 142, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10268, 100536, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (194, 984, 28, 69, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10268, 100537, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (776, 180, 22, 67, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10269, 100538, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (474, 810, 14, 73, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10269, 100539, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (398, 987, 11, 59, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10270, 100540, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (181, 575, 13, 171, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10270, 100541, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (247, 591, 15, 10, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10271, 100542, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (262, 707, 12, 102, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10271, 100543, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (359, 219, 18, 20, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10272, 100544, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (343, 440, 10, 189, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10272, 100545, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (842, 121, 12, 94, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10273, 100546, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (558, 483, 27, 194, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10273, 100547, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (471, 614, 28, 19, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10274, 100548, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (364, 568, 26, 35, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10274, 100549, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (965, 302, 15, 144, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10275, 100550, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (605, 769, 18, 155, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10275, 100551, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (754, 552, 28, 156, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10276, 100552, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (550, 839, 29, 84, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10276, 100553, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (875, 287, 30, 69, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10277, 100554, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (220, 219, 29, 17, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10277, 100555, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (278, 340, 19, 102, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10278, 100556, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (706, 726, 20, 111, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10278, 100557, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (234, 666, 29, 184, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10279, 100558, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (237, 880, 10, 176, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10279, 100559, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (639, 793, 19, 104, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10280, 100560, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (113, 563, 20, 102, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10280, 100561, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (924, 606, 26, 116, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10281, 100562, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (127, 468, 10, 93, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10281, 100563, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (814, 635, 21, 64, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10282, 100564, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (935, 172, 16, 92, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10282, 100565, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (177, 497, 10, 85, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10283, 100566, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (509, 570, 27, 69, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10283, 100567, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (436, 468, 30, 141, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10284, 100568, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (199, 366, 15, 42, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10284, 100569, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (120, 317, 16, 46, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10285, 100570, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (567, 695, 17, 162, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10285, 100571, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (588, 599, 21, 89, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10286, 100572, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (911, 742, 28, 85, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10286, 100573, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (827, 345, 16, 197, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10287, 100574, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (846, 437, 16, 65, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10287, 100575, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (236, 705, 29, 20, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10288, 100576, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (925, 497, 16, 49, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10288, 100577, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (635, 481, 20, 142, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10289, 100578, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (423, 875, 13, 103, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10289, 100579, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (117, 443, 21, 153, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10290, 100580, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (715, 359, 17, 78, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10290, 100581, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (841, 121, 14, 26, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10291, 100582, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (262, 209, 29, 165, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10291, 100583, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (955, 438, 14, 23, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10292, 100584, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (629, 743, 19, 51, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10292, 100585, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (170, 651, 15, 183, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10293, 100586, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (116, 647, 15, 73, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10293, 100587, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (833, 401, 16, 133, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10294, 100588, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (698, 575, 13, 64, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10294, 100589, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (274, 612, 10, 200, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10295, 100590, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (116, 983, 12, 120, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10295, 100591, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (808, 580, 20, 169, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10296, 100592, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (602, 691, 10, 75, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10296, 100593, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (211, 776, 22, 53, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10297, 100594, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (244, 689, 22, 47, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10297, 100595, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (280, 147, 30, 106, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10298, 100596, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (867, 202, 18, 95, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10298, 100597, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (426, 637, 24, 17, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10299, 100598, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (633, 874, 25, 100, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10299, 100599, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (990, 732, 30, 107, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10300, 100600, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (277, 357, 19, 31, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10300, 100601, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (763, 467, 17, 93, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10301, 100602, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (980, 770, 16, 86, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10301, 100603, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (470, 904, 22, 37, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10302, 100604, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (934, 855, 11, 162, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10302, 100605, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (729, 877, 14, 43, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10303, 100606, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (860, 114, 24, 55, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10303, 100607, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (339, 296, 25, 23, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10304, 100608, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (929, 834, 16, 39, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10304, 100609, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (419, 242, 28, 105, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10305, 100610, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (793, 107, 12, 176, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10305, 100611, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (361, 776, 26, 181, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10306, 100612, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (595, 735, 27, 175, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10306, 100613, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (311, 384, 13, 124, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10307, 100614, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (391, 680, 15, 198, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10307, 100615, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (160, 273, 20, 22, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10308, 100616, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (135, 123, 14, 118, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10308, 100617, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (527, 594, 11, 117, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10309, 100618, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (670, 300, 14, 175, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10309, 100619, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (659, 330, 16, 71, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10310, 100620, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (427, 543, 23, 51, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10310, 100621, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (481, 269, 22, 76, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10311, 100622, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (430, 392, 18, 10, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10311, 100623, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (655, 274, 13, 167, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10312, 100624, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (764, 465, 21, 124, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10312, 100625, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (214, 257, 19, 176, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10313, 100626, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (816, 386, 12, 115, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10313, 100627, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (382, 845, 26, 60, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10314, 100628, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (748, 546, 26, 141, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10314, 100629, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (389, 220, 22, 175, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10315, 100630, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (828, 117, 15, 31, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10315, 100631, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (912, 683, 11, 146, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10316, 100632, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (142, 265, 15, 141, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10316, 100633, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (933, 844, 12, 82, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10317, 100634, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (298, 626, 10, 17, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10317, 100635, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (884, 843, 23, 22, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10318, 100636, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (180, 700, 19, 11, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10318, 100637, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (608, 712, 14, 46, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10319, 100638, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (782, 689, 12, 128, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10319, 100639, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (598, 425, 28, 14, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10320, 100640, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (757, 486, 19, 145, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10320, 100641, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (873, 784, 14, 95, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10321, 100642, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (507, 135, 27, 191, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10321, 100643, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (981, 308, 29, 46, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10322, 100644, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (245, 702, 25, 89, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10322, 100645, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (878, 207, 14, 122, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10323, 100646, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (924, 224, 12, 79, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10323, 100647, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (234, 182, 21, 154, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10324, 100648, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (783, 956, 26, 169, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10324, 100649, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (152, 717, 30, 194, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10325, 100650, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (796, 254, 20, 105, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10325, 100651, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (497, 450, 25, 154, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10326, 100652, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (411, 467, 16, 79, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10326, 100653, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (191, 943, 18, 155, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10327, 100654, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (460, 410, 14, 69, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10327, 100655, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (706, 516, 10, 112, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10328, 100656, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (568, 399, 18, 127, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10328, 100657, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (485, 105, 14, 119, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10329, 100658, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (289, 987, 22, 147, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10329, 100659, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (716, 636, 17, 53, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10330, 100660, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (344, 360, 13, 142, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10330, 100661, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (737, 862, 18, 77, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10331, 100662, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (849, 663, 17, 92, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10331, 100663, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (139, 720, 27, 182, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10332, 100664, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (594, 729, 23, 112, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10332, 100665, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (166, 331, 18, 165, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10333, 100666, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (873, 234, 28, 123, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10333, 100667, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (719, 721, 13, 116, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10334, 100668, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (211, 873, 18, 187, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10334, 100669, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (769, 971, 30, 44, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10335, 100670, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (801, 701, 20, 59, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10335, 100671, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (878, 133, 26, 42, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10336, 100672, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (822, 827, 22, 84, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10336, 100673, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (512, 667, 28, 199, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10337, 100674, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (711, 582, 21, 140, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10337, 100675, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (220, 502, 24, 38, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10338, 100676, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (698, 655, 27, 60, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10338, 100677, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (382, 523, 23, 53, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10339, 100678, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (498, 803, 15, 193, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10339, 100679, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (559, 886, 12, 127, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10340, 100680, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (229, 170, 22, 110, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10340, 100681, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (567, 328, 11, 197, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10341, 100682, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (525, 637, 22, 162, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10341, 100683, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (395, 924, 16, 96, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10342, 100684, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (470, 995, 29, 185, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10342, 100685, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (753, 122, 14, 53, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10343, 100686, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (953, 597, 30, 162, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10343, 100687, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (315, 228, 20, 71, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10344, 100688, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (221, 816, 14, 28, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10344, 100689, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (961, 356, 30, 180, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10345, 100690, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (889, 811, 22, 88, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10345, 100691, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (281, 879, 19, 149, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10346, 100692, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (923, 626, 20, 160, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10346, 100693, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (946, 206, 26, 70, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10347, 100694, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (511, 919, 20, 125, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10347, 100695, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (284, 116, 21, 99, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10348, 100696, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (156, 946, 10, 42, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10348, 100697, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (288, 525, 22, 50, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10349, 100698, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (301, 328, 22, 159, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10349, 100699, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (386, 531, 12, 62, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10350, 100700, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (853, 196, 12, 158, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10350, 100701, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (846, 613, 26, 131, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10351, 100702, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (818, 534, 20, 22, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10351, 100703, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (502, 905, 30, 43, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10352, 100704, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (589, 648, 15, 34, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10352, 100705, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (270, 162, 27, 171, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10353, 100706, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (790, 723, 13, 91, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10353, 100707, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (479, 517, 17, 143, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10354, 100708, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (878, 929, 19, 160, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10354, 100709, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (755, 610, 29, 17, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10355, 100710, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (640, 624, 12, 181, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10355, 100711, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (230, 232, 20, 49, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10356, 100712, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (530, 326, 29, 25, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10356, 100713, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (285, 564, 17, 159, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10357, 100714, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (200, 490, 12, 160, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10357, 100715, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (568, 414, 28, 118, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10358, 100716, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (212, 837, 13, 196, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10358, 100717, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (656, 664, 20, 47, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10359, 100718, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (143, 412, 27, 35, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10359, 100719, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (878, 187, 23, 102, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10360, 100720, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (592, 172, 10, 79, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10360, 100721, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (200, 236, 15, 197, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10361, 100722, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (970, 673, 10, 78, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10361, 100723, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (332, 412, 16, 82, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10362, 100724, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (270, 240, 27, 134, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10362, 100725, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (615, 241, 16, 136, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10363, 100726, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (105, 952, 24, 119, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10363, 100727, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (425, 859, 21, 26, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10364, 100728, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (834, 784, 29, 192, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10364, 100729, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (253, 726, 10, 135, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10365, 100730, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (536, 210, 25, 87, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10365, 100731, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (128, 949, 22, 70, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10366, 100732, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (436, 900, 28, 111, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10366, 100733, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (651, 439, 12, 10, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10367, 100734, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (856, 923, 18, 98, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10367, 100735, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (915, 754, 14, 147, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10368, 100736, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (434, 284, 23, 14, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10368, 100737, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (407, 265, 30, 148, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10369, 100738, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (596, 220, 28, 37, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10369, 100739, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (924, 704, 22, 147, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10370, 100740, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (619, 433, 27, 17, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10370, 100741, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (162, 632, 22, 138, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10371, 100742, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (204, 236, 15, 98, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10371, 100743, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (785, 807, 10, 34, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10372, 100744, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (719, 335, 27, 175, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10372, 100745, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (631, 476, 14, 120, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10373, 100746, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (828, 516, 10, 200, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10373, 100747, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (801, 651, 17, 198, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10374, 100748, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (393, 724, 26, 200, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10374, 100749, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (340, 614, 30, 132, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10375, 100750, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (220, 668, 14, 60, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10375, 100751, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (923, 442, 11, 85, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10376, 100752, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (489, 764, 28, 140, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10376, 100753, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (999, 941, 30, 64, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10377, 100754, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (978, 340, 24, 176, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10377, 100755, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (987, 855, 11, 144, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10378, 100756, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (527, 258, 28, 118, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10378, 100757, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (109, 297, 26, 77, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10379, 100758, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (448, 757, 20, 190, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10379, 100759, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (385, 859, 20, 162, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10380, 100760, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (227, 404, 25, 13, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10380, 100761, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (208, 684, 17, 54, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10381, 100762, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (525, 403, 12, 55, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10381, 100763, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (703, 438, 12, 11, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10382, 100764, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (384, 743, 29, 130, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10382, 100765, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (878, 631, 11, 36, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10383, 100766, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (151, 524, 22, 173, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10383, 100767, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (783, 416, 12, 174, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10384, 100768, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (461, 435, 26, 64, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10384, 100769, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (200, 892, 10, 11, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10385, 100770, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (799, 384, 13, 180, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10385, 100771, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (926, 200, 19, 197, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10386, 100772, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (867, 160, 30, 13, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10386, 100773, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (133, 489, 27, 83, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10387, 100774, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (407, 290, 24, 42, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10387, 100775, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (237, 853, 17, 193, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10388, 100776, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (764, 349, 16, 63, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10388, 100777, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (712, 613, 23, 193, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10389, 100778, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (972, 865, 27, 163, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10389, 100779, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (259, 598, 19, 45, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10390, 100780, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (247, 644, 21, 18, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10390, 100781, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (696, 975, 20, 101, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10391, 100782, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (922, 402, 10, 11, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10391, 100783, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (369, 873, 23, 63, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10392, 100784, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (282, 330, 21, 52, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10392, 100785, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (671, 288, 27, 91, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10393, 100786, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (238, 128, 28, 61, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10393, 100787, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (414, 873, 13, 191, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10394, 100788, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (676, 633, 27, 144, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10394, 100789, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (749, 345, 28, 177, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10395, 100790, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (348, 694, 17, 57, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10395, 100791, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (922, 505, 13, 169, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10396, 100792, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (738, 508, 25, 124, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10396, 100793, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (508, 893, 24, 162, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10397, 100794, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (286, 247, 15, 31, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10397, 100795, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (878, 668, 22, 48, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10398, 100796, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (257, 271, 14, 103, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10398, 100797, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (781, 951, 25, 123, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10399, 100798, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (994, 541, 18, 107, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10399, 100799, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (314, 403, 16, 67, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10400, 100800, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (204, 625, 16, 76, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10400, 100801, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (783, 171, 19, 28, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10401, 100802, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (894, 185, 28, 91, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10401, 100803, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (891, 283, 24, 110, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10402, 100804, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (325, 536, 20, 130, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10402, 100805, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (533, 454, 26, 30, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10403, 100806, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (347, 858, 13, 143, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10403, 100807, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (665, 599, 28, 42, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10404, 100808, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (927, 601, 10, 152, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10404, 100809, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (194, 413, 26, 72, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10405, 100810, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (125, 212, 27, 42, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10405, 100811, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (124, 744, 28, 24, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10406, 100812, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (304, 910, 17, 104, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10406, 100813, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (837, 257, 15, 90, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10407, 100814, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (421, 500, 22, 83, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10407, 100815, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (808, 846, 26, 62, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10408, 100816, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (929, 795, 29, 96, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10408, 100817, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (564, 364, 14, 30, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10409, 100818, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (850, 166, 21, 152, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10409, 100819, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (839, 505, 20, 164, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10410, 100820, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (980, 445, 21, 63, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10410, 100821, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (926, 169, 10, 169, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10411, 100822, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (888, 276, 12, 110, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10411, 100823, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (867, 345, 27, 108, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10412, 100824, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (846, 779, 28, 52, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10412, 100825, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (387, 110, 23, 102, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10413, 100826, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (164, 677, 16, 115, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10413, 100827, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (708, 681, 29, 121, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10414, 100828, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (952, 409, 10, 68, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10414, 100829, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (810, 878, 16, 83, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10415, 100830, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (147, 426, 29, 196, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10415, 100831, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (311, 137, 19, 85, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10416, 100832, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (154, 174, 23, 92, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10416, 100833, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (244, 206, 15, 101, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10417, 100834, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (765, 738, 27, 116, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10417, 100835, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (581, 298, 24, 39, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10418, 100836, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (984, 823, 20, 75, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10418, 100837, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (193, 148, 19, 92, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10419, 100838, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (982, 976, 23, 150, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10419, 100839, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (730, 151, 27, 51, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10420, 100840, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (542, 920, 22, 27, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10420, 100841, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (391, 345, 22, 156, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10421, 100842, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (718, 787, 17, 39, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10421, 100843, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (652, 805, 10, 13, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10422, 100844, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (768, 341, 12, 78, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10422, 100845, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (859, 373, 11, 58, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10423, 100846, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (562, 722, 24, 191, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10423, 100847, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (989, 435, 19, 10, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10424, 100848, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (998, 963, 29, 148, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10424, 100849, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (208, 309, 13, 165, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10425, 100850, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (740, 733, 13, 10, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10425, 100851, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (619, 369, 30, 157, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10426, 100852, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (983, 922, 27, 168, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10426, 100853, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (352, 987, 19, 40, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10427, 100854, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (813, 454, 11, 158, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10427, 100855, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (573, 362, 29, 126, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10428, 100856, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (604, 370, 14, 133, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10428, 100857, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (961, 645, 15, 63, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10429, 100858, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (912, 233, 22, 81, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10429, 100859, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (595, 368, 29, 61, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10430, 100860, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (829, 994, 12, 179, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10430, 100861, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (379, 102, 29, 194, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10431, 100862, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (497, 804, 29, 88, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10431, 100863, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (713, 150, 26, 148, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10432, 100864, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (357, 456, 25, 20, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10432, 100865, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (700, 598, 26, 151, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10433, 100866, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (290, 183, 11, 113, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10433, 100867, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (860, 354, 11, 137, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10434, 100868, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (775, 702, 26, 106, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10434, 100869, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (744, 649, 17, 16, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10435, 100870, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (182, 811, 28, 152, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10435, 100871, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (570, 807, 15, 141, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10436, 100872, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (147, 812, 23, 73, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10436, 100873, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (684, 479, 11, 42, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10437, 100874, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (147, 304, 15, 134, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10437, 100875, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (318, 758, 12, 19, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10438, 100876, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (452, 425, 16, 146, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10438, 100877, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (467, 870, 16, 106, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10439, 100878, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (918, 675, 29, 30, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10439, 100879, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (224, 469, 23, 186, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10440, 100880, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (291, 396, 14, 65, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10440, 100881, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (170, 744, 27, 138, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10441, 100882, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (852, 753, 10, 80, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10441, 100883, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (768, 538, 23, 83, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10442, 100884, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (365, 959, 16, 127, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10442, 100885, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (541, 547, 12, 80, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10443, 100886, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (949, 665, 17, 90, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10443, 100887, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (400, 489, 26, 60, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10444, 100888, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (494, 102, 26, 12, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10444, 100889, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (713, 499, 28, 197, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10445, 100890, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (454, 574, 14, 103, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10445, 100891, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (464, 934, 19, 97, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10446, 100892, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (123, 768, 25, 55, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10446, 100893, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (260, 780, 15, 135, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10447, 100894, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (283, 622, 23, 137, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10447, 100895, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (354, 873, 22, 10, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10448, 100896, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (504, 186, 25, 94, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10448, 100897, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (850, 865, 30, 142, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10449, 100898, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (416, 290, 19, 170, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10449, 100899, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (375, 641, 27, 75, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10450, 100900, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (121, 156, 19, 152, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10450, 100901, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (107, 901, 12, 187, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10451, 100902, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (354, 199, 14, 143, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10451, 100903, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (605, 117, 18, 44, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10452, 100904, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (891, 261, 17, 57, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10452, 100905, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (716, 513, 14, 135, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10453, 100906, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (536, 608, 21, 111, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10453, 100907, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (567, 182, 18, 43, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10454, 100908, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (447, 413, 21, 67, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10454, 100909, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (522, 451, 30, 87, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10455, 100910, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (590, 772, 15, 182, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10455, 100911, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (243, 310, 14, 116, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10456, 100912, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (622, 591, 18, 80, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10456, 100913, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (240, 112, 16, 10, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10457, 100914, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (547, 717, 27, 106, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10457, 100915, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (566, 243, 21, 151, 12, to_date('', 'DD-MM-RR HH24:MI:SS'), 10458, 100916, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (792, 394, 17, 76, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10458, 100917, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (531, 895, 13, 84, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10459, 100918, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (896, 406, 30, 18, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10459, 100919, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (434, 308, 15, 40, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10460, 100920, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (699, 766, 23, 188, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10460, 100921, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (969, 190, 29, 176, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10461, 100922, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (323, 968, 14, 61, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10461, 100923, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (646, 770, 25, 141, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10462, 100924, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (739, 221, 20, 188, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10462, 100925, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (313, 725, 25, 57, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10463, 100926, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (525, 289, 22, 104, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10463, 100927, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (259, 346, 19, 112, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10464, 100928, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (219, 588, 17, 130, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10464, 100929, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (131, 346, 18, 88, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10465, 100930, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (499, 506, 20, 122, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10465, 100931, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (946, 727, 20, 185, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10466, 100932, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (380, 223, 13, 84, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10466, 100933, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (450, 479, 28, 155, 15, to_date('', 'DD-MM-RR HH24:MI:SS'), 10467, 100934, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (851, 756, 27, 114, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10467, 100935, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (176, 898, 21, 159, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10468, 100936, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (148, 318, 11, 200, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10468, 100937, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (560, 689, 26, 48, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10469, 100938, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (841, 576, 14, 42, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10469, 100939, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (403, 713, 26, 135, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10470, 100940, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (940, 128, 27, 68, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10470, 100941, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (248, 552, 28, 68, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10471, 100942, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (296, 215, 23, 104, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10471, 100943, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (684, 239, 12, 192, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10472, 100944, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (308, 235, 19, 109, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10472, 100945, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (185, 100, 22, 101, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10473, 100946, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (517, 994, 28, 16, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10473, 100947, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (655, 181, 21, 81, 29, to_date('', 'DD-MM-RR HH24:MI:SS'), 10474, 100948, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (661, 475, 21, 106, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10474, 100949, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (104, 930, 22, 191, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10475, 100950, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (210, 417, 29, 197, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10475, 100951, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (856, 578, 17, 100, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10476, 100952, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (358, 660, 16, 99, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10476, 100953, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (967, 131, 12, 145, 27, to_date('', 'DD-MM-RR HH24:MI:SS'), 10477, 100954, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (285, 261, 30, 106, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10477, 100955, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (801, 578, 23, 174, 21, to_date('', 'DD-MM-RR HH24:MI:SS'), 10478, 100956, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (174, 407, 16, 28, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10478, 100957, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (396, 866, 13, 40, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10479, 100958, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (978, 428, 19, 136, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10479, 100959, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (948, 936, 26, 18, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10480, 100960, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (826, 769, 15, 20, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10480, 100961, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (906, 151, 25, 21, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10481, 100962, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (853, 808, 17, 112, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10481, 100963, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (884, 763, 30, 103, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10482, 100964, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (272, 205, 27, 13, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10482, 100965, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (773, 361, 29, 70, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10483, 100966, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (105, 346, 19, 40, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10483, 100967, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (690, 562, 25, 75, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10484, 100968, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (368, 105, 12, 33, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10484, 100969, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (307, 549, 30, 56, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10485, 100970, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (156, 281, 22, 89, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10485, 100971, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (372, 688, 20, 43, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10486, 100972, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (942, 729, 30, 148, 14, to_date('', 'DD-MM-RR HH24:MI:SS'), 10486, 100973, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (673, 971, 23, 110, 20, to_date('', 'DD-MM-RR HH24:MI:SS'), 10487, 100974, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (824, 908, 26, 149, 19, to_date('', 'DD-MM-RR HH24:MI:SS'), 10487, 100975, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (377, 812, 26, 134, 10, to_date('', 'DD-MM-RR HH24:MI:SS'), 10488, 100976, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (945, 368, 12, 51, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10488, 100977, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (473, 367, 16, 98, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10489, 100978, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (731, 484, 13, 63, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10489, 100979, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (727, 305, 15, 188, 11, to_date('', 'DD-MM-RR HH24:MI:SS'), 10490, 100980, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (750, 415, 22, 184, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10490, 100981, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (678, 663, 20, 28, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10491, 100982, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (870, 518, 11, 139, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10491, 100983, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (537, 398, 16, 86, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10492, 100984, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (556, 615, 15, 126, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10492, 100985, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (814, 833, 11, 200, 28, to_date('', 'DD-MM-RR HH24:MI:SS'), 10493, 100986, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (769, 885, 18, 45, 18, to_date('', 'DD-MM-RR HH24:MI:SS'), 10493, 100987, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (639, 468, 24, 165, 17, to_date('', 'DD-MM-RR HH24:MI:SS'), 10494, 100988, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (918, 847, 29, 178, 16, to_date('', 'DD-MM-RR HH24:MI:SS'), 10494, 100989, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (527, 694, 27, 32, 13, to_date('', 'DD-MM-RR HH24:MI:SS'), 10495, 100990, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (634, 139, 17, 52, 30, to_date('', 'DD-MM-RR HH24:MI:SS'), 10495, 100991, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (653, 646, 16, 28, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10496, 100992, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (774, 935, 30, 195, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10496, 100993, 2000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (103, 764, 21, 49, 22, to_date('', 'DD-MM-RR HH24:MI:SS'), 10497, 100994, 3000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (522, 397, 26, 134, 26, to_date('', 'DD-MM-RR HH24:MI:SS'), 10497, 100995, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (564, 404, 18, 87, 24, to_date('', 'DD-MM-RR HH24:MI:SS'), 10498, 100996, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (500, 223, 27, 42, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10498, 100997, 4000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (907, 379, 22, 49, 23, to_date('', 'DD-MM-RR HH24:MI:SS'), 10499, 100998, 1000);
+
+INSERT INTO PRODUCT_VARIANT (PRODUCT_PRICE, PRODUCT_WEIGHT, PRODUCT_HEIGHT, PRODUCT_WIDTH, PRODUCT_DEPTH, PRODUCT_DELETEDAT, PRODUCT_ID, PRODUCT_VARIANT_ID, TAXONOMY_ID) 
+VALUES (439, 739, 26, 134, 25, to_date('', 'DD-MM-RR HH24:MI:SS'), 10499, 100999, 2000);
+
+-- Import Data into table PRODUCT_VARIANT from file C:\Users\abhishek\Downloads\variants.csv . Task successful and sent to worksheet.
