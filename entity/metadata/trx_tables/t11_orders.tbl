@@ -9,7 +9,7 @@
 -- 06-Jun-2018   Sonali/Hemant       1.0       Initial creation & Insertion of data
 -- 08-Jun-2018   Gaurav              1.1       Added NOT NULL , PRIMARY KEY ,Foreign Key, Added new Columns
 -----------------------------------------------------------------------------------------------------
-
+drop table orders;
 
 
 create table Orders (

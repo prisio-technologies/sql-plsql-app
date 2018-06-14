@@ -9,7 +9,7 @@
 -- 06-Jun-2018    Sonali/Neha        1.0       Initial creation
 -- 08-Jun-2018    Gaurav             1.1       Added NOT NULL , PRIMARY KEY & FOREGIN KEY CONSTRAINTS
 ----------------------------------------------------------------------------------------------------
-
+drop table users_addresses;
 create table users_addresses (
 	User_ID INT,
     Address_ID INT,

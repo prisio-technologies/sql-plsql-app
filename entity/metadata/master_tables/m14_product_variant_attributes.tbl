@@ -1,3 +1,4 @@
+drop table product_variant_attributes;
 ----------------------------------------------------------------------------------------------------
 -- File name       : product_taxonomies.tbl
 -- Author          : Abhishek

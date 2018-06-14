@@ -1,3 +1,4 @@
+drop table product_taxonomies;
 create table product_taxonomies
 ----------------------------------------------------------------------------------------------------
 -- File name       : product_taxonomies.tbl

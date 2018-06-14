@@ -1,3 +1,4 @@
+
 ----------------------------------------------------------------------------------------------------
 -- File name       : product_stocks
 -- Author          : Gaurav
@@ -9,7 +10,7 @@
 -- 05-Jun-2018    Gaurav          1.0       Initial creation
 -- 08-JUn-2018    Gaurav          1.1       Added NOT NULL , PRIMARY KEY ,Foreign Key,Added new COLUMNS
 -----------------------------------------------------------------------------------------------------
-
+drop table product_stocks;
 create table product_stocks (
 	Product_id INT,
 	Product_tax_id INT,

@@ -9,6 +9,7 @@
 -- 06-Jun-2018    Gaurav          1.0       Initial creation
 -- 08-Jun-2018    Gaurav          1.1       Added NOT NULL , PRIMARY KEY & FOREGIN KEY CONSTRAINTS
 -----------------------------------------------------------------------------------------------------
+drop table users_geo_location;
 create table users_geo_location (
 	Geo_Loc_id INT,
 	User_id INT,
