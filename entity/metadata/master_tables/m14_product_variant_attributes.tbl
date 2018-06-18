@@ -9,6 +9,7 @@ drop table product_variant_attributes;
 -------------- ---------------    -------- ----------------------------------------------------------
 -- 08-JUn-2018    Gaurav            1.1        Added NOT NULL , PRIMARY KEY ,Foreign Key, Added new Columns
 -----------------------------------------------------------------------------------------------------
+drop table product_variant_attributes;
 create table product_variant_attributes (
 Product_Quality VARCHAR(9),
 Product_Colour VARCHAR(50),
