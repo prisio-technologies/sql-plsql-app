@@ -1,0 +1,22 @@
+1. Create a anonymous plsql block to insert data into product_taxonomies
+2. create a sequence in product_taxonomies_id so that sequence value jumps by 1000
+
+
+1. Create a package named: plapp_prod_txny_pkg
+2. create procedure for insert, update, disable from product_taxonomies. (add a column named enable_flag in product_taxonomies)
+3. create a function that should validate data in product_taxonomies 
+    which validate and return Boolean if product_taxonomies data inserted does not exist already
+4. create a procedure that can read data from interface table named product_taxonomies_int and insert into product_taxonomies.
+    List all validations to be written.
+
+
+------above needs to be repeated for each master table.
+
+
+
+---------------------------------------------------------------------
+
+1. create an api for user data registration:
+    -> write all the validations.
+
+2.     
